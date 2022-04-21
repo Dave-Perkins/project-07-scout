@@ -1,0 +1,4 @@
+num_nodes 2
+deg_sequence 1 1
+1
+0
