@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 1",
       "input": "",
       "output": "",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Test 2",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 2",
       "input": "",
       "output": "",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Test 3",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 3",
       "input": "",
       "output": "",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Test 4",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 4",
       "input": "",
       "output": "",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Test 5",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 5",
       "input": "",
       "output": "",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Test 6",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 6",
       "input": "",
       "output": "",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Test 7",
-      "setup": "g++ cycles.cpp",
+      "setup": "g++ scout.cpp",
       "run": "bash .testing/test.sh 7",
       "input": "",
       "output": "",
@@ -71,9 +71,9 @@
       "points": 1
     },
     {
-      "name": "Test 8 + valgrind",
-      "setup": "g++ -g cycles.cpp",
-      "run": "valgrind --leak-check=full --error-exitcode=1 ./a.out < .testing/input8.txt",
+      "name": "Test 8",
+      "setup": "g++ scout.cpp",
+      "run": "bash .testing/test.sh 8",
       "input": "",
       "output": "",
       "comparison": "included",
