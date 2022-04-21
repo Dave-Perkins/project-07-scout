@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cycles cycles.cpp)
+add_executable(scout scout.cpp)
